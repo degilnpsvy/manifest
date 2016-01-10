@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Generic manifests for linux and qemu /!-->
+  <remote  name="origin"
+           fetch="git@github.com:degilnpsvy/" />
+
+  <!-- Specific projects /!-->
+  <project path="linux" name="linux" revision="linux" />
+  <project path="qemu"  name="qemu"  revision="qemu" />
+
+</manifest>
