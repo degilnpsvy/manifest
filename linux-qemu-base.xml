@@ -5,7 +5,8 @@
   <remote  name="origin"
            fetch=".." />
 
-  <default remote="origin"
+  <default revision="master"
+           remote="origin"
            sync-j="2" />
 
   <!-- Specific projects /!-->
