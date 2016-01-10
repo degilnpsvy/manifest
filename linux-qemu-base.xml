@@ -3,10 +3,13 @@
 
   <!-- Generic manifests for linux and qemu /!-->
   <remote  name="origin"
-           fetch="git@github.com:degilnpsvy/" />
+           fetch=".." />
+
+  <default remote="origin"
+           sync-j="2" />
 
   <!-- Specific projects /!-->
-  <project path="linux" name="linux" revision="linux" />
-  <project path="qemu"  name="qemu"  revision="qemu" />
+  <project path="linux" name="linux" />
+  <project path="qemu"  name="qemu" />
 
 </manifest>
