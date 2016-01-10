@@ -3,7 +3,7 @@
 
   <!-- Generic manifests for linux and qemu /!-->
   <remote  name="origin"
-           fetch=".." />
+           fetch="https://github.com/degilnpsvy/" />
 
   <default revision="master"
            remote="origin"
