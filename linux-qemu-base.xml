@@ -10,7 +10,9 @@
            sync-j="2" />
 
   <!-- Specific projects /!-->
-  <project path="linux" name="linux" />
-  <project path="qemu"  name="qemu" />
+  <project path="linux"   name="linux" />
+  <project path="qemu"    name="qemu" />
+  <project path="busybox" name="busybox" />
+  <project path="scripts" name="platform-scripts" />
 
 </manifest>
