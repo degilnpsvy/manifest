@@ -3,17 +3,17 @@
 
   <!-- Generic manifests for linux and qemu /!-->
   <remote  name="origin"
-           fetch="https://github.com/degilnpsvy/" />
+           fetch="https://github.com/" />
 
   <default revision="master"
            remote="origin"
            sync-j="2" />
 
   <!-- Specific projects /!-->
-  <project path="linux"   name="linux" />
-  <project path="qemu"    name="qemu"             revision="develop/main" />
-  <project path="busybox" name="busybox" />
-  <project path="scripts" name="platform-scripts" />
-  <project path="module"  name="linux-modules" />
+  <project path="linux"   name="torvalds/linux" />
+  <project path="qemu"        name="qemu/qemu" />
+  <project path="busybox"   name="mirror/busybox" />
+  <project path="scripts" name="degilnpsvy/platform-scripts" />
+  <project path="module"  name="degilnpsvy/linux-modules" />
 
 </manifest>
