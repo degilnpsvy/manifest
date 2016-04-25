@@ -13,8 +13,8 @@
   <project path="linux"   name="torvalds/linux" />
   <project path="qemu"        name="qemu/qemu" />
   <project path="busybox"   name="mirror/busybox" />
-  <project path="scripts" name="degilnpsvy/platform-scripts" >
-    <linkfile src="Makefile" dest="Makefile"/>
+  <project path="scripts" name="degilnpsvy/platform-scripts">
+    <copyfile src="Makefile" dest="Makefile"/>
   </project>
   <project path="module"  name="degilnpsvy/linux-modules" />
 
